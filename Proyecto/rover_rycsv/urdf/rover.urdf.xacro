@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<robot name="rover_gida" xmlns:xacro="http://ros.org/wiki/xacro">  
+<robot name="rover_rycsv" xmlns:xacro="http://ros.org/wiki/xacro">  
   <xacro:arg name="imu_enable" default="true"/>
   <xacro:arg name="gps_enable" default="true"/>
   <!-- Si el sensor kinect esta habilitado entonces la camara y lidar no lo pueden estar-->
@@ -30,7 +30,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Caja.STL" />
+          filename="package://rover_rycsv/meshes/Caja.STL" />
       </geometry>
       <material
         name="">
@@ -84,7 +84,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rocker_izq.STL" />
+          filename="package://rover_rycsv/meshes/Rocker_izq.STL" />
       </geometry>
       <material
         name="">
@@ -140,7 +140,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Bogie_izq.STL" />
+          filename="package://rover_rycsv/meshes/Bogie_izq.STL" />
       </geometry>
       <material
         name="">
@@ -196,7 +196,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_1.STL" />
+          filename="package://rover_rycsv/meshes/Acople_1.STL" />
       </geometry>
       <material
         name="">
@@ -252,7 +252,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_1.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_1.STL" />
       </geometry>
       <material
         name="">
@@ -266,7 +266,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_1.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_1.STL" />
       </geometry>
     </collision>
   </link>
@@ -309,7 +309,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_2.STL" />
+          filename="package://rover_rycsv/meshes/Acople_2.STL" />
       </geometry>
       <material
         name="">
@@ -363,7 +363,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_2.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_2.STL" />
       </geometry>
       <material
         name="">
@@ -377,7 +377,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_2.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_2.STL" />
       </geometry>
     </collision>
   </link>
@@ -420,7 +420,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_3.STL" />
+          filename="package://rover_rycsv/meshes/Acople_3.STL" />
       </geometry>
       <material
         name="">
@@ -476,7 +476,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_3.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_3.STL" />
       </geometry>
       <material
         name="">
@@ -490,7 +490,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_3.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_3.STL" />
       </geometry>
     </collision>
   </link>
@@ -533,7 +533,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rocker_der.STL" />
+          filename="package://rover_rycsv/meshes/Rocker_der.STL" />
       </geometry>
       <material
         name="">
@@ -589,7 +589,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Bogie_der.STL" />
+          filename="package://rover_rycsv/meshes/Bogie_der.STL" />
       </geometry>
       <material
         name="">
@@ -645,7 +645,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_4.STL" />
+          filename="package://rover_rycsv/meshes/Acople_4.STL" />
       </geometry>
       <material
         name="">
@@ -701,7 +701,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_4.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_4.STL" />
       </geometry>
       <material
         name="">
@@ -715,7 +715,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_4.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -758,7 +758,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_5.STL" />
+          filename="package://rover_rycsv/meshes/Acople_5.STL" />
       </geometry>
       <material
         name="">
@@ -812,7 +812,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_5.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_5.STL" />
       </geometry>
       <material
         name="">
@@ -826,7 +826,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_5.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -869,7 +869,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Acople_6.STL" />
+          filename="package://rover_rycsv/meshes/Acople_6.STL" />
       </geometry>
       <material
         name="">
@@ -925,7 +925,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_6.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_6.STL" />
       </geometry>
       <material
         name="">
@@ -939,7 +939,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://rover_gida/meshes/Rueda_6.STL" />
+          filename="package://rover_rycsv/meshes/Rueda_6.STL" />
       </geometry>
     </collision>
   </link>
@@ -1114,7 +1114,7 @@
   <!-- ____________________________________SENSORES____________________________________ -->
   <!-- SENSOR KINECT -->
   <xacro:if value="$(arg kinect_enable)">
-    <xacro:include filename="$(find rover_gida)/urdf/kinect.gazebo.xacro" />
+    <xacro:include filename="$(find rover_rycsv)/urdf/kinect.gazebo.xacro" />
     <link name="Sensor_kinect">
       <inertial>
         <origin
@@ -1136,7 +1136,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh 
-            filename="package://rover_gida/meshes/sensor_kinect.stl"
+            filename="package://rover_rycsv/meshes/sensor_kinect.stl"
             scale= "0.01 0.01 0.01"/>
         </geometry>
         <material
@@ -1151,7 +1151,7 @@
           rpy="0 0 0" />
         <geometry>
           <mesh 
-            filename="package://rover_gida/meshes/sensor_kinect.stl"
+            filename="package://rover_rycsv/meshes/sensor_kinect.stl"
             scale= "0.01 0.01 0.01"/>
         </geometry>
       </collision>
@@ -1190,8 +1190,8 @@
   
   <!-- CAMARA Y LIDAR -->
   <xacro:if value="$(arg camera_and_lidar_enable)">
-    <xacro:include filename="$(find rover_gida)/urdf/camera.gazebo.xacro" />
-    <xacro:include filename="$(find rover_gida)/urdf/lidar.gazebo.xacro" />
+    <xacro:include filename="$(find rover_rycsv)/urdf/camera.gazebo.xacro" />
+    <xacro:include filename="$(find rover_rycsv)/urdf/lidar.gazebo.xacro" />
     <link name="Camera">
       <inertial>
         <origin
@@ -1255,7 +1255,7 @@
       <visual>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <geometry>
-          <mesh filename="package://rover_gida/meshes/hokuyo.dae"/>
+          <mesh filename="package://rover_rycsv/meshes/hokuyo.dae"/>
         </geometry>
       </visual>
 
@@ -1283,7 +1283,7 @@
   
   <!-- SENSOR IMU -->  
   <xacro:if value="$(arg imu_enable)">
-    <xacro:include filename="$(find rover_gida)/urdf/imu.gazebo.xacro" />
+    <xacro:include filename="$(find rover_rycsv)/urdf/imu.gazebo.xacro" />
     <link name="IMU">
       <inertial>
         <origin
@@ -1338,7 +1338,7 @@
   </xacro:if>
 
   <xacro:if value="$(arg gps_enable)">
-    <xacro:include filename="$(find rover_gida)/urdf/gps.gazebo.xacro" />
+    <xacro:include filename="$(find rover_rycsv)/urdf/gps.gazebo.xacro" />
     <link name="GPS">
       <inertial>
         <origin
