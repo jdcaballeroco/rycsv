@@ -2,5 +2,8 @@ kobuki: https://github.com/yujinrobot/kobuki
 kobuki_core: https://github.com/yujinrobot/kobuki_core
 kobuki_desktop: https://github.com/yujinrobot/kobuki_desktop
 kobuki_msgs: https://github.com/yujinrobot/kobuki_msgs
+bfl: https://github.com/ros-gbp/bfl-release
 diagnostics: https://github.com/ros/diagnostics
 navigation: https://github.com/ros-planning/navigation
+robot_pose_ekf: https://github.com/ros-planning/robot_pose_ekf
+gps_umd: https://github.com/swri-robotics/gps_umd
