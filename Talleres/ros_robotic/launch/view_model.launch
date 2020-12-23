@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Cargar el modelo del robot -->
+    <arg name="model" default="$(find ros_robotic)/urdf/dd_robot.urdf"/>
+
+    <!-- Parse of Model -->
+    <param 
+        name="robot_description" 
+        command="$(find xacro)/xacro $(arg model)"
+    />
+
+    <!-- Robot_state_publisher -->
+    <!-- Publica las transformaciones entre marcos de referencia fijos -->
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="rob_pub" />
+
+    <!-- Joint_state_publisher -->
+    <!-- Publica los estados de las juntas cuando no se tiene información de estas-->
+    <!-- i.e., el robot no esta en simulación o en la vida real.-->
+    <node 
+        pkg="joint_state_publisher_gui" 
+        type="joint_state_publisher_gui" 
+        name="joint_state"
+    />
+
+    <!-- RViz-->
+    <node pkg="rviz" type="rviz" name="rviz" />
+
+</launch>

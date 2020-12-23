@@ -1,0 +1,28 @@
+#PARAMETROS DE INVOCACIÓN KOBUKI
+x : -3.5                            #POSICION X INICIAL DEL ROBOT
+y : 0.0                            #POSICION Y INICIAL DEL ROBOT
+theta : -90.0                      #ORIENTACION INICIAL DEL ROBOT
+
+#PARAMETROS DEL ROBOT
+w_max : 1.047197                   #VELOCIDAD ANGULAR MAXIMA
+vel_cruc : 0.3                     #VELOCIDAD DE CRUCERO TRASLACIONAL
+
+#PARAMETROS DE COORDENADAS Y TRAYECTORIA
+coordenadas : [[-3.5, 3.5],
+              [ 1.5, 3.5],
+              [ 1.5,-1.5],
+              [ 3.5,-1.5],
+              [ 3.5,-8.0],
+              [-2.5,-8.0],
+              [-2.5,-5.5],
+              [ 1.5,-5.5],
+              [ 1.5,-3.5],
+              [-1.0,-3.5]]
+ds : 1                             #DISTANCIAMIENTO ENTRE PUNTOS DE TRAYECTORIA
+num_coor_tray : 0
+
+#PARAMETROS DEL PROGRAMA
+f : 50                             #FRECUENCIA DE PUBLICACION
+
+#PARAMETROS DEL CONTROLADOR DEL ROBOT
+Kp : [ 5, 0.05,-2]                 #COEFICIENTES DEL CONTROLADOR PROPORCIONAL

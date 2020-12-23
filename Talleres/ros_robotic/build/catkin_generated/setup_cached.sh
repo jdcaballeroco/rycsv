@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+# generated from catkin/python/catkin/environment_cache.py
+
+# based on a snapshot of the environment before and after calling the setup script
+# it emulates the modifications of the setup script without recurring computations
+
+# new environment variables
+
+# modified environment variables
+export CMAKE_PREFIX_PATH="/home/jesus/catkin_ws/src/ros_robotic/build/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/jesus/catkin_ws/src/ros_robotic/build/devel/lib:$LD_LIBRARY_PATH"
+export PATH='/home/jesus/catkin_ws/devel/bin:/opt/ros/melodic/bin:/home/jesus/.local/bin:/home/jesus/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PKG_CONFIG_PATH="/home/jesus/catkin_ws/src/ros_robotic/build/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/jesus/Documentos/RyCSV/Talleres/Taller1/ros_robotic/build'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/jesus/catkin_ws/src/ros_robotic/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH='/home/jesus/catkin_ws/src/ros_robotic:/home/jesus/catkin_ws/src/diagnostic_updater:/home/jesus/catkin_ws/src/first_pkg:/home/jesus/catkin_ws/src/husky_rycsv:/home/jesus/catkin_ws/src/kobuki/kobuki:/home/jesus/catkin_ws/src/kobuki/kobuki_capabilities:/home/jesus/catkin_ws/src/kobuki_core/kobuki_core:/home/jesus/catkin_ws/src/kobuki/kobuki_description:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_desktop:/home/jesus/catkin_ws/src/kobuki_core/kobuki_dock_drive:/home/jesus/catkin_ws/src/kobuki_core/kobuki_driver:/home/jesus/catkin_ws/src/kobuki_exer2:/home/jesus/catkin_ws/src/kobuki_core/kobuki_ftdi:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_gazebo:/home/jesus/catkin_ws/src/kobuki_lidar:/home/jesus/catkin_ws/src/kobuki_msgs:/home/jesus/catkin_ws/src/kobuki/kobuki_auto_docking:/home/jesus/catkin_ws/src/kobuki/kobuki_bumper2pc:/home/jesus/catkin_ws/src/kobuki/kobuki_controller_tutorial:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_dashboard:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_gazebo_plugins:/home/jesus/catkin_ws/src/kobuki/kobuki_keyop:/home/jesus/catkin_ws/src/kobuki/kobuki_random_walker:/home/jesus/catkin_ws/src/kobuki/kobuki_rapps:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_rviz_launchers:/home/jesus/catkin_ws/src/kobuki/kobuki_safety_controller:/home/jesus/catkin_ws/src/kobuki/kobuki_node:/home/jesus/catkin_ws/src/kobuki/kobuki_testsuite:/home/jesus/catkin_ws/src/kobuki_desktop/kobuki_qtestsuite:/home/jesus/catkin_ws/src/kobuki_trayectory:/home/jesus/catkin_ws/src/map_server:/home/jesus/catkin_ws/src/amcl:/home/jesus/catkin_ws/src/localizacion_amcl_example:/home/jesus/catkin_ws/src/model_robot_2_rycsv:/home/jesus/catkin_ws/src/model_robot_exer_rycsv:/home/jesus/catkin_ws/src/param_server_example:/home/jesus/catkin_ws/src/pubsub_lidar_husky:/home/jesus/catkin_ws/src/pysdf:/home/jesus/catkin_ws/src/robots_rycsv_description:/home/jesus/catkin_ws/src/ros_robotic:/home/jesus/catkin_ws/src/rover_RYCSV:/home/jesus/catkin_ws/src/test_description_rycsv:/opt/ros/melodic/share'

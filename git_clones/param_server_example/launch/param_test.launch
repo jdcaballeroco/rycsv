@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<launch>
+    
+    <!-- Global parameter-->
+    <param name="global_param" value="20"/>
+
+    <node pkg="param_server_example" type="param_test.py" name="param_test" output="screen">
+        <!-- Local Parameter-->
+        <param name="local_param" value="10.0"/>
+    </node> 
+    
+    <!--  -->
+    <node pkg="param_server_example" type="param_test.py" name="param_test2" output="screen">
+        <!-- Local Parameter from YAML File -->
+        <rosparam file="$(find param_server_example)/config/parameters.yaml" command="load" />
+    </node> 
+
+</launch>

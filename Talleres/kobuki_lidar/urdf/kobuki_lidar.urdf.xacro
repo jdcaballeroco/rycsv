@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<robot name="kobuki_lidar" xmlns:xacro="http://ros.org/wiki/xacro">
+
+    <!-- Include Base Kobuki Model -->
+    <xacro:include filename="$(find kobuki_description)/urdf/kobuki_standalone.urdf.xacro" />
+
+    <!-- Include Lidar Gazebo File -->
+    <xacro:include filename="$(find kobuki_lidar)/urdf/lidar.gazebo.xacro" />
+
+    <joint name="lidar_joint" type="fixed">
+        <origin xyz="0.08 0.0 0.103" rpy="0 0 0"/>
+        <parent link="base_link"/>
+        <child link="lidar_link"/>
+    </joint>
+    
+    <link name="lidar_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.015 0.030 0.027"/>
+            </geometry>
+        </visual>
+        <collision>
+            <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.015 0.03 0.03"/>
+            </geometry>
+        </collision>
+    </link>
+</robot>
